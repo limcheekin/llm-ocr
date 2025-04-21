@@ -80,7 +80,7 @@ python main.py <input_pdf> <output_md> [options]
 
 **EasyOCR Engine Options (used when `--engine easyocr`):**
 
-*   `--langs LANGS [LANGS ...]`: List of languages for EasyOCR (e.g., `en fr es`). Defaults to `['en']`.
+*   `--langs LANGS [LANGS ...]`: [List of languages for EasyOCR](https://www.jaided.ai/easyocr/) (e.g., `en fr es`). Defaults to `['en']`.
 *   `--gpu / --no-gpu`: Enable or disable GPU usage for EasyOCR. Defaults to `True` (use GPU if available). Use `--no-gpu` to force CPU.
 
 **General Options:**
