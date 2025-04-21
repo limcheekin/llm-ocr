@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+pymupdf
+pillow
+openai
+easyocr 
+opencv-python-headless

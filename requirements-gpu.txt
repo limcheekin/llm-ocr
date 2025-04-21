@@ -1,0 +1,5 @@
+pymupdf
+pillow
+openai
+easyocr 
+opencv-python-headless
