@@ -137,7 +137,7 @@ def query_openai_with_single_image_with_retry(
         {
             "role": "user",
             "content": [
-                {"type": "text", "content": prompt},
+                {"type": "text", "text": prompt},
                 {
                     "type": "image_url",
                     "image_url": {
@@ -358,3 +358,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
